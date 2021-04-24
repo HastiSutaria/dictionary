@@ -23,8 +23,6 @@ def convert(word):
     else:
         print("Oops! Word not found.")
 
-
-
 word = input("Enter the word you want to search - ")
 output = convert(word)
 if type(output) == list:
